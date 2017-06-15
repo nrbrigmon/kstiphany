@@ -1,0 +1,71 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.work-sidebar {
+    position: fixed;
+    width: 33.33333%;
+}
+.work-sidebar > .table{
+	width: 300px;
+}
+.work-sidebar > .table h5{
+	margin: 2px 0px; 
+	font-size: inherit;
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th,
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 0px;
+    line-height: 1;
+    vertical-align: top;
+    border-top: 0px solid #ddd; 
+}
+
+#portfolio-desc-title{
+	font-size: 16px;
+	font-weight: 700;
+	margin:0px;
+}
+
+#portfolio-desc-year{
+	margin-top:0px;
+	margin-bottom: 25px;
+}
+#portfolio-desc-text{
+	margin-top:0px;
+	margin-bottom: 25px;
+	
+}
+
+@media  (max-width: 992px) {
+	.work-sidebar > .table{
+		width: 245px;
+	}
+
+	.work-sidebar > .table h5{
+		font-size: 13px;
+	}
+}
+
+@media  (max-width: 767px) {
+    .work-sidebar {
+        position: relative;
+	    width: 100%;
+	    margin-left: 0px;
+    }
+}
