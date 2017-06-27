@@ -15,11 +15,13 @@ body {
 .work-sidebar {
     position: fixed;
     width: 33.33333%;
+    padding-bottom: 0px;
 }
-.work-sidebar > .table{
+.work-sidebar > ul.level2 > li > table{
 	width: 300px;
+	margin-left: 10px;
 }
-.work-sidebar > .table h5{
+.work-sidebar > ul.level2 > li > table h5{
 	margin: 2px 0px; 
 	font-size: inherit;
 }
@@ -52,6 +54,68 @@ body {
 	
 }
 
+.filter-option{
+	cursor: pointer;
+}
+li.filter-option.active {
+	font-weight: 700;
+}
+
+section.filter{
+	margin-bottom: 25px;
+}
+/* side bar CSS*/
+.work-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 350px;
+}
+.work-sidebar ul li {
+	margin-left: 22px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12px;
+	max-width: 260px;
+	min-width: 240px;
+}
+.work-sidebar > ul > li{
+    margin-left: 0px;
+}
+.visible-layers-list{
+	text-align:left;
+	padding-left: 0px;
+	width: 200px;
+	border: none;
+	color: #303336;
+}
+.visible-layers-list:hover{
+	background: none;
+	background-color: none;
+	font-weight:700;
+}
+.visible-layers-list .button-text{
+	margin-left: 25px;
+}
+.visible-layers-list i {
+	position: absolute;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.active-layer-selection{
+    background: none repeat scroll 0 0 black;
+    border-radius: 4px;
+}
+ul.level3{
+	margin-left: 4px;
+}
+ul.level3 > li > span.year {
+	float: right;
+	margin-right: 20px;
+}
+ul.level3 > li:hover{
+	background-color: #dddddd;
+}
+
 @media  (max-width: 992px) {
 	.work-sidebar > .table{
 		width: 245px;
@@ -60,6 +124,10 @@ body {
 	.work-sidebar > .table h5{
 		font-size: 13px;
 	}
+	
+    .work-sidebar ul li{
+    	margin-left: 0px;
+    }
 }
 
 @media  (max-width: 767px) {
@@ -69,3 +137,4 @@ body {
 	    margin-left: 0px;
     }
 }
+

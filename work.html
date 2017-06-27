@@ -59,6 +59,9 @@
                         <a href="about.html">about</a>
                     </li>
                     <li>
+                        <a href="cv.html">cv</a>
+                    </li>
+                    <li>
                         <a href="contact.html">contact</a>
                     </li>
                 </ul>
@@ -84,39 +87,92 @@
         <!-- Portfolio Item Row -->
         <div id="portfolio-item" class="row">
 
-
             <div class="col-sm-4 col-md-4 work-sidebar">
-                <table class='table table-hover selection-table'>
-                    <tr class="filter-option" data-filter="carandiru">
-                        <td><h5>carandiru</h5></td>
-                        <td><h5>1999</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="rua-solon">
-                        <td><h5>rua solon</h5></td>
-                        <td><h5>2001</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="bamburral">
-                        <td><h5>bamburral</h5></td>
-                        <td><h5>2008-2010</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="ideas-out">
-                        <td><h5>ideas out of place</h5></td>
-                        <td><h5>2013</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="half-houses">
-                        <td><h5>half houses, whole women</h5></td>
-                        <td><h5>2017</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="oceana-county">
-                        <td><h5>oceana county</h5></td>
-                        <td><h5>2017</h5></td>
-                    </tr>
-                    <tr class="filter-option" data-filter="all">
-                        <td><h5>browse all</h5></td>
-                        <td><h5> </h5></td>
-                    </tr>
+                
+                <ul class="level2">
+                    <li>
+                        <button class="btn btn-default visible-layers-list" data-toggle="collapse"><i class="fa fa-flask" aria-hidden="true"></i><span class="button-text">Sample</span></button>
+                        <ul class='photography-list collapse level3' id="photography">
+                            <li class="filter-option" data-filter="carandiru">
+                                carandiru
+                                <span class="year">1999</span>
+                            </li>
+                            <li class="filter-option" data-filter="rua-solon">
+                                rua solon
+                                <span class="year">2001</span>
+                            </li>
+                            <li class="filter-option" data-filter="bamburral">
+                                bamburral
+                                <span class="year">2008-2010</span>
+                            </li>
+                            <li class="filter-option" data-filter="ideas-out">
+                                ideas out of place
+                                <span class="year">2013</span>
+                            </li>
+                            <li class="filter-option" data-filter="half-houses">
+                                half houses, whole women
+                                <span class="year">2017</span>
+                            </li>
+                            <li class="filter-option" data-filter="oceana-county">
+                                oceana county
+                                <span class="year">2017</span>
+                            </li>
+                            <li class="filter-option" data-filter="all">
+                                browse all
+                                 
+                            </li>
 
-                </table>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="btn btn-default visible-layers-list" data-toggle="collapse"><i class="fa fa-university" aria-hidden="true"></i><span class="button-text">Research</span></button>
+                        <ul class='creative-list collapse level3' id="research">
+                            <li class="filter-option" data-filter="">
+                                research item #1
+                                <span class="year">2009</span>
+                            </li>
+                            <li class="filter-option" data-filter="-">
+                                research item #2
+                                <span class="year">2010</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="btn btn-default visible-layers-list" data-toggle="collapse"><i class="fa fa-globe" aria-hidden="true"></i><span class="button-text">Creative Practice</span></button>
+                        <ul class='creative-list collapse level3' id="creative">
+                            <li class="filter-option" data-filter="">
+                                creative item #1
+                                <span class="year">2005</span>
+                            </li>
+                            <li class="filter-option" data-filter="-">
+                                creative item #2
+                                <span class="year">2011</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button class="btn btn-default visible-layers-list" data-toggle="collapse"><i class="fa fa-camera-retro" aria-hidden="true"></i><span class="button-text">Photography</span></button>
+                        <ul class='photography-list collapse level3' id="photography">
+                            <li class="filter-option" data-filter="buildings">
+                                buildings
+                                <span class="year">1999</span>
+                            </li>
+                            <li class="filter-option" data-filter="cities">
+                                cities
+                                <span class="year">2001</span>
+                            </li>
+                            <li class="filter-option" data-filter="people">
+                                people
+                                <span class="year">2008-2010</span>
+                            </li>
+                            <li class="filter-option" data-filter="spaces">
+                                spaces
+                                <span class="year">2013</span>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
                 <!-- <h3>Project Description</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
                 <h3>Project Details</h3>
@@ -129,48 +185,283 @@
             </div>
 
             <div class="col-sm-offset-4 col-sm-8 col-md-offset-4 col-md-8">
+                <!-- sample section -->
                 <section class="filter carandiru">
                     <p id="portfolio-desc-title">carandiru</p>
                     <p id="portfolio-desc-year">1999</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_01.JPG" alt="">
                 </section>
 
                 <section class="filter rua-solon">
                     <p id="portfolio-desc-title">rua solon</p>
                     <p id="portfolio-desc-year">2001</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_02.JPG" alt="">
                 </section>
 
                 <section class="filter bamburral">
                     <p id="portfolio-desc-title">bamburral</p>
                     <p id="portfolio-desc-year">2008-2010</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_03.JPG" alt="">
                 </section>
                 
                 <section class="filter ideas-out">
                     <p id="portfolio-desc-title">ideas-out</p>
                     <p id="portfolio-desc-year">2013</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_04.JPG" alt="">
                 </section>
 
                 <section class="filter half-houses">
                     <p id="portfolio-desc-title">half-houses</p>
                     <p id="portfolio-desc-year">2017</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_05.JPG" alt="">
                 </section>
 
                 <section class="filter oceana-county">
                     <p id="portfolio-desc-title">oceana-county</p>
                     <p id="portfolio-desc-year">2017</p>
                     <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="./img/Photography/17_buildings/08_B_01.JPG" alt="">
                 </section>
 
+
+                <!-- buildings_photography -->
+
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">carandiru</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_01.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">rua solon</p>
+                    <p id="portfolio-desc-year">2001</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_02.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">bamburral</p>
+                    <p id="portfolio-desc-year">2008-2010</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_03.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">ideas-out</p>
+                    <p id="portfolio-desc-year">2013</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_04.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">half-houses</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/07_B_05.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/08_B_01.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/08_B_02.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/09_B_03.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/11_B_01.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/16_B_01.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/16_B_02.JPG" alt="">
+                </section>
+                <section class="filter buildings">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_buildings/16_B_03.JPG" alt="">
+                </section>
+
+
+                <!-- cities_photography -->
+
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">carandiru</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/07_C_01.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">rua solon</p>
+                    <p id="portfolio-desc-year">2001</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/08_C_01.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">bamburral</p>
+                    <p id="portfolio-desc-year">2008-2010</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/09_C_01.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">ideas-out</p>
+                    <p id="portfolio-desc-year">2013</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/09_C_02.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">half-houses</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/09_C_03.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/16_C_05.JPG" alt="">
+                </section>
+                <section class="filter cities">
+                    <p id="portfolio-desc-title">oceana-county</p>
+                    <p id="portfolio-desc-year">2017</p>
+                    <p id="portfolio-desc-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                    <img class="img-responsive" src="./img/Photography/17_cities/16_C_06.JPG" alt="">
+                </section>
+
+
+                <!-- people_photography -->
+
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_01.JPG" alt="">
+                </section>
+
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_02.JPG" alt="">
+                </section>
+
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_03.JPG" alt="">
+                </section>
+
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_04.JPG" alt="">
+                </section>
+
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_05.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_06.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_07.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_08.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_09.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_10.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_11.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/08_P_12.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/16_P_01.JPG" alt="">
+                </section>
+                <section class="filter people">
+                    <p id="portfolio-desc-title">people</p>
+                    <img class="img-responsive" src="./img/Photography/17_people/16_P_02.JPG" alt="">
+                </section>
+
+
+                <!-- spaces_photography -->
+
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">s</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/07_S_01.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">p</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/07_S_02.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">a</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/07_S_03.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">c</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/07_S_04.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">e</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/07_S_05.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">e</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/08_S_01.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">e</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/08_S_02.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">e</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/08_S_03.JPG" alt="">
+                </section>
+                <section class="filter spaces">
+                    <p id="portfolio-desc-title">s</p>
+                    <p id="portfolio-desc-year">1999</p>
+                    <img class="img-responsive" src="./img/Photography/17_spaces/09_S_01.JPG" alt="">
+                </section>
 
             </div>
             
